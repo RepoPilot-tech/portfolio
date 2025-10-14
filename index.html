@@ -10,9 +10,11 @@
 </head>
 
 <body>
-  <div id="root">
-    <div class="relative z-0 bg-primary">
-      <div class="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+  <div id="root" class="" style="width: 100% !important;">
+    <!-- <div class="sparkling-background"></div> -->
+
+    <div class="relative z-0 bg-primary stars-container sparkling-background ">
+      <div class="bg-hero-pattern bg-cover bg-no-repeat bg-center pattern-background">
         <div>
           <nav class="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-primary">
             <div class="w-full flex justify-between items-center max-w-7xl margin-x-auto"><a
@@ -22,9 +24,24 @@
               </a>
               <ul class="list-none hidden sm:flex flex-row gap-10">
                 <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
-                    href="#about">About</a></li>
+                    href="#root">Home</a>
+                </li>
                 <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
-                    href="#work">Work</a></li>
+                    href="#about">About</a>
+                </li>
+
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#work">Work</a>
+                </li>
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#skill">Skills</a>
+                </li>
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#project">Projects</a>
+                </li>
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#testimonial">Testimonials</a>
+                </li>
                 <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
                     href="#contact">Contact</a></li>
               </ul>
@@ -50,20 +67,35 @@
               <div class="w-5 h-5 rounded-full bg-[#919eff]"></div>
               <div class="w-1 sm:h-10 h-40 violet-gradient"></div>
             </div>
-            <div>
+            <div class="text-container " style="opacity: 1 !important;">
               <h1
-                class="font-Ceder text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2 text-white">
+                class="letter font-Ceder text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2 text-white">
                 HI!, I'm <span class="text-[#919eff]">Phyo Han Kyaw</span> </h1>
               <p>
-              <h1 style="font-size: x-large;">Senior Full stack &amp; Blockchain Developer</h1><br
-                class="sm:block hidden"> 🚀&nbsp;DevOps & Intuitive and User-friendly-interface<br
-                class="sm:block hidden"> 🚀&nbsp;SEO & High speed backend & Database</p>
+              <h1 class="gradient" style="font-size: x-large; opacity: 1 !important;">Senior Full stack &amp; Blockchain
+                Developer</h1>
+              <!-- <div>
+                <br class="sm:block hidden"> 🚀&nbsp;DevOps & Intuitive and User-friendly-interface<br
+                  class="sm:block hidden"> 🚀&nbsp;SEO & High speed backend & Database</p>
+              </div> -->
+              <div class="introduction profile-intro">
+                <div class="typing-text">
+                  <br class="sm:block hidden gradient">
+                  🚀&nbsp;DevOps<br>🚀&nbsp;Intuitive&nbsp;&&nbsp;User-friendly interface<br class="sm:block hidden">
+                  🚀&nbsp;SEO<br>🚀
+                  High
+                  speed
+                  backend<br class="sm:block hidden"> 🚀&nbsp;Database<br>
+                </div>
+              </div>
             </div>
           </div>
           <div
             style="position: relative; width: 100%; height: 100%; overflow: hidden; pointer-events: auto; touch-action: none;">
-            <div style="width: 100%; height: 100%;"><img src="./assets/img/3d-portfolio.png" class="object-contain"
-                style="margin-top: 20%; scale: 93%; width: 130%; height: 60%;"></div>
+            <div style="width: 100%; height: 100%;" class="image-container">
+              <!-- <img src="./assets/img/3d-portfolio.png" class="object-contain"
+                style="margin-top: 20%; scale: 93%; width: 130%; height: 60%;"> -->
+            </div>
 
           </div>
           <!-- <div class="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center"><a href="#about">
@@ -72,6 +104,110 @@
                 </div>
               </div>
             </a></div> -->
+        </section>
+      </div>
+
+
+      <div class="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div>
+          <nav class="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-primary navitem">
+            <div class="w-full flex justify-between items-center max-w-9xl margin-x-auto"><a
+                class="flex items-center gap-2" href="#root"><img src="./assets/img/5348934.jpg"
+                  class="w-9 h-9 object-contain">
+                <p class="text-white text-[18px] font-bold cursor-pointer"
+                  style="position: relative; margin-left: 0px !important;">Phyo Han Kyaw</p>
+
+                <a class="getresume  flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
+                  role="button" target="_blank" href="assets/resume/Phyo Han.pdf">
+                  <span style="font-size: large;">Get
+                    Resume</span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                    height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"></path>
+                  </svg></a>
+              </a>
+              <ul class="list-none hidden sm:flex flex-row gap-10">
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#root">Home</a>
+                </li>
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#about">About</a>
+                </li>
+
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#work">Work</a>
+                </li>
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#skill">Skills</a>
+                </li>
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#project">Projects</a>
+                </li>
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#testimonial">Testimonials</a>
+                </li>
+                <li class="text-secondary text-medium hover:text-white text-[18px] cursor-pointer"><a
+                    href="#contact">Contact</a></li>
+
+              </ul>
+              <div class="sm:hidden flex flex-1 justify-end items-center"><img src=""
+                  class="w-[28px] h-[28px] object-contain cursor-pointer">
+                <div class="hidden p-6 Ceder-gradient absolute top-20 right-0 mx-x my-2 min-w-[180px] z-10 rounded-xl">
+                  <ul class="list-none flex flex-col justify-end items-start  gap-4">
+                    <li class="text-secondary text-medium text-[16px] font-poppins cursor-pointer"><a
+                        href="#about">About</a>
+                    </li>
+                    <li class="text-secondary text-medium text-[16px] font-poppins cursor-pointer"><a
+                        href="#work">Work</a>
+                    </li>
+                    <li class="text-secondary text-medium text-[16px] font-poppins cursor-pointer"><a
+                        href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <section class="relative w-full h-screen mx-auto backphoto">
+          <div class="sm:px-16 px-6 absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5">
+            <div class="flex flex-col justify-center items-center mt-0">
+              <div class="w-5 h-5 rounded-full bg-[#919eff]"></div>
+              <div class="w-1 sm:h-1 h-40 violet-gradient"></div>
+            </div>
+            <div class="text-container">
+              <h1 style="margin-top: 0.1em !important;"
+                class="letter font-Ceder text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2 text-white">
+                HI!, I'm <span class="text-[#919eff]">Phyo Han Kyaw</span> </h1>
+              <p>
+              <h1 class="gradient" style="font-size:xx-large; font-weight: 800;">🚀Senior Full stack &amp;
+                Blockchain Developer🚀</h1>
+              <div class="introduction profile-intro">
+                <div class="typing-text">
+                  <br class="sm:block hidden gradient">
+                  🚀&nbsp;DevOps<br>🚀&nbsp;Intuitive&nbsp;&&nbsp;User-friendly interface<br class="sm:block hidden">
+                  🚀&nbsp;SEO<br>🚀
+                  High
+                  speed
+                  backend<br class="sm:block hidden"> 🚀&nbsp;Database<br>
+                </div>
+              </div>
+              </p>
+            </div>
+          </div>
+          <div
+            style="position: relative; width: 100%; height: 100%; overflow: hidden; pointer-events: auto; touch-action: none;">
+            <div style="width: 100%; height: 100%;" class="image-container">
+              <!-- <img src="./assets/img/3d-portfolio.png" class="object-contain"
+                style="margin-top: 20%; scale: 93%; width: 130%; height: 60%;"> -->
+            </div>
+
+          </div>
+          <!-- <div class="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center"><a href="#about">
+                    <div class="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+                      <div class="w-3 h-3 rounded-full bg-secondary" style="transform: translateY(5.6816px) translateZ(0px);">
+                      </div>
+                    </div>
+                  </a></div> -->
         </section>
       </div>
       <section class="sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0"><span class="hash-span"
@@ -145,15 +281,15 @@
           </h2>
         </div>
         <div class="mt-20 flex flex-col">
-          <div class="vertical-timeline vertical-timeline--animate vertical-timeline--two-columns">
-            <div id="" class="vertical-timeline-element"><span
+          <div class="vertical-timeline vertical-timeline--animate vertical-timeline--two-columns ">
+            <div id="" class="vertical-timeline-element hovercardg"><span
                 class="vertical-timeline-element-icon bounce-in hovercard" style="background: rgb(56, 62, 86);">
                 <div class="w-full h-full flex items-center justify-center hovercard"><img
                     src="./assets/img/proudcloud-eea3865a.png" alt="Proudcloud"
                     class="w-[60%] h-[60%] object-contain hovercard">
                 </div>
               </span>
-              <div class="vertical-timeline-element-content bounce-in"
+              <div class="vertical-timeline-element-content bounce-in "
                 style="background: rgb(29, 24, 54); color: rgb(255, 255, 255);">
                 <div class="vertical-timeline-element-content-arrow" style="border-right: 7px solid rgb(35, 38, 49);">
                 </div>
@@ -176,7 +312,7 @@
                 </ul><span class="vertical-timeline-element-date">July 2019 - May 2021</span>
               </div>
             </div>
-            <div id="" class="vertical-timeline-element"><span
+            <div id="" class="vertical-timeline-element hovercardg"><span
                 class="vertical-timeline-element-icon bounce-in hovercard" style="background: rgb(230, 222, 221);">
                 <div class="w-full h-full flex items-center justify-center"><img
                     src="./assets/img/rikkeisoft-aef587f9.svg" alt="Rikkeisoft Company"
@@ -208,7 +344,7 @@
                 </ul><span class="vertical-timeline-element-date hovercard">June 2021 - May 2022</span>
               </div>
             </div>
-            <div id="" class="vertical-timeline-element"><span
+            <div id="" class="vertical-timeline-element hovercardg"><span
                 class="vertical-timeline-element-icon bounce-in hovercard" style="background: rgb(56, 62, 86);">
                 <div class="w-full h-full flex items-center justify-center"><img src="./assets/img/jlabs-a32d7494.png"
                     alt="JLabs" class="w-[60%] h-[60%] object-contain"></div>
@@ -237,7 +373,7 @@
                 </ul><span class="vertical-timeline-element-date">June 2022 - September 2023</span>
               </div>
             </div>
-            <div id="" class="vertical-timeline-element"><span
+            <div id="" class="vertical-timeline-element hovercardg"><span
                 class="vertical-timeline-element-icon bounce-in hovercard" style="background: rgb(56, 62, 86);">
                 <div class="w-full h-full flex items-center justify-center"><img
                     src="./assets/img/tsukiden_logo-d9c69047.png" alt="Tsukiden Global Solutions Inc"
@@ -273,14 +409,14 @@
       <section class="sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0"><span class="hash-span"
           id="">&nbsp;</span>
         <div class="flex justify-center flex-wrap gap-10">
-
+          <span class="hash-span" id="skill">&nbsp;</span>
           <h3 class="text-white font-Ceder md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Skills
           </h3>
           <img src="./assets/img/Annotation 2025-10-02 071417.jpg" alt="technologies" class="" style="scale: 115%;">
         </div>
       </section>
       <section class="sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0"><span class="hash-span"
-          id="">&nbsp;</span>
+          id="project">&nbsp;</span>
         <div style="opacity: 1; transform: none;">
           <p class="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider ">My work</p>
           <h2 class="text-white font-Ceder md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Projects.</h2>
@@ -569,7 +705,7 @@
         </div>
       </section>
       <section class="sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0"><span class="hash-span"
-          id="">&nbsp;</span>
+          id="testimonial">&nbsp;</span>
         <div class="mt-12 bg-Ceder-100 rounded-[20px]">
           <div class="bg-tertiary rounded-2xl sm:px-16 px-6 sm:py-16 py-10 min-h-[300px]">
             <div style="opacity: 1; transform: none;">
@@ -692,7 +828,7 @@
         <section class="sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0"><span class="hash-span"
             id="contact">&nbsp;</span>
           <div class="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
-            <div class="flex-[0.75] bg-Ceder-100 p-8 rounded-2xl hovercard">
+            <div class="flex-[0.75] bg-Ceder-100 p-8 rounded-2xl hovercardg">
               <p class="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Get in touch</p>
               <h3 class="text-white font-Ceder md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Contact.</h3>
               <form class="mt-12 flex flex-col gap-8"><label class="flex flex-col"><span
@@ -720,7 +856,7 @@
               <div
                 style="position: relative; width: 100%; height: 100%; overflow: hidden; pointer-events: auto; touch-action: none;">
                 <div style="width: 100%; height: 100%;"><img src="./assets/img/Annotation 2025-10-02 093753.jpg"
-                    alt="technologies" class="hovercard"
+                    alt="technologies" class="hovercardg"
                     style=" width: 200%; display: flex; align-items: center; justify-content: center; margin-top: 100px;">
                 </div>
               </div>
@@ -779,7 +915,11 @@
                       d="M0 0v64h64V0zm37.1 47.2c-.8.2-1.1-.3-1.1-.8V42c0-1.5-.5-2.5-1.1-3 3.6-.4 7.3-1.7 7.3-7.9 0-1.7-.6-3.2-1.6-4.3.2-.4.7-2-.2-4.2 0 0-1.3-.4-4.4 1.6-1.3-.4-2.6-.5-4-.5s-2.7.2-4 .5c-3.1-2.1-4.4-1.6-4.4-1.6-.9 2.2-.3 3.8-.2 4.2-1 1.1-1.6 2.5-1.6 4.3 0 6.1 3.7 7.5 7.3 7.9-.5.4-.9 1.1-1 2.1-.9.4-3.2 1.1-4.7-1.3 0 0-.8-1.5-2.5-1.6 0 0-1.6 0-.1 1 0 0 1 .5 1.8 2.3 0 0 .9 3.1 5.4 2.1v2.7c0 .4-.3.9-1.1.8-6.3-2-10.9-8-10.9-15.1 0-8.8 7.2-16 16-16s16 7.2 16 16c0 7.1-4.6 13.1-10.9 15.2">
                     </path>
                   </g>
-                </svg></span></a>
+                </svg></span></a><br>
+
+          </div>
+          <div class="footer">
+            © Copyright 2019-2025 by Phyo Han Kyaw. All Rights Reserved.
           </div>
         </section>
         <div class="w-full h-auto absolute inset-0 z-[-1]">
